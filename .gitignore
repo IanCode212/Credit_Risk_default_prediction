@@ -1,0 +1,22 @@
+# Data files (too large / shouldn't be committed)
+data/
+*.csv
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials (if you store DB passwords in a local file)
+.env
+config_local.py
