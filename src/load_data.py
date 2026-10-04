@@ -12,9 +12,11 @@ Before running:
 import pandas as pd
 from sqlalchemy import create_engine
 
+import os
+from dotenv import load_dotenv
 # --- fill these in ---
 DB_USER = "root"
-DB_PASSWORD = "your_password_here"
+DB_PASSWORD = os.getenv("DB_PASSWORD")  # Load password from .env file
 DB_HOST = "localhost"
 DB_PORT = 3306
 DB_NAME = "credit_risk"

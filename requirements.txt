@@ -6,3 +6,4 @@ scikit-learn
 sqlalchemy
 pymysql
 jupyter
+python-dotenv
